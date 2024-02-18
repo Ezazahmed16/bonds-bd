@@ -27,7 +27,7 @@ const Navbar = () => {
               <Image
                 src="/logo-removebg.png"
                 alt="Bonds Bangladesh Logo"
-                width={140}
+                width={180}
                 height={80}
               />
             </div>
