@@ -9,7 +9,7 @@ const Products = () => {
       </div>
       <div className="text-white grid sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-5">
 
-        <div style={{ border: '2px solid #F7941D' }} className="card shadow-xl bg-base-300">
+        <div style={{ border: '1px solid #F7941D' }} className="card shadow-xl bg-base-300 hover:bg-base-200">
           <figure className="px-10 pt-10">
             <img src="https://img.freepik.com/premium-photo/yarn-clothing_1127-20113.jpg?w=740" alt="Shoes" className="rounded-xl" />
           </figure>
@@ -22,7 +22,7 @@ const Products = () => {
             </div>
           </div>
         </div>
-        <div  style={{ border: '2px solid #F7941D' }} className="card shadow-xl bg-base-300">
+        <div  style={{ border: '1px solid #F7941D' }} className="card shadow-xl bg-base-300 hover:bg-base-200">
           <figure className="px-10 pt-10">
             <img src="https://img.freepik.com/premium-photo/yarn-clothing_1127-20113.jpg?w=740" alt="Shoes" className="rounded-xl" />
           </figure>
@@ -35,7 +35,7 @@ const Products = () => {
             </div>
           </div>
         </div>
-        <div  style={{ border: '2px solid #F7941D' }} className="card shadow-xl bg-base-300">
+        <div  style={{ border: '1px solid #F7941D' }} className="card shadow-xl bg-base-300 hover:bg-base-200">
           <figure className="px-10 pt-10">
             <img src="https://img.freepik.com/premium-photo/yarn-clothing_1127-20113.jpg?w=740" alt="Shoes" className="rounded-xl" />
           </figure>
@@ -48,7 +48,7 @@ const Products = () => {
             </div>
           </div>
         </div>
-        <div  style={{ border: '2px solid #F7941D' }} className="card shadow-xl bg-base-300">
+        <div  style={{ border: '1px solid #F7941D' }} className="card shadow-xl bg-base-300 hover:bg-base-200">
           <figure className="px-10 pt-10">
             <img src="https://img.freepik.com/premium-photo/yarn-clothing_1127-20113.jpg?w=740" alt="Shoes" className="rounded-xl" />
           </figure>
