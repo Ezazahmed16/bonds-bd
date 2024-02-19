@@ -3,7 +3,7 @@ import { FaEye } from "react-icons/fa";
 
 const Products = () => {
   return (
-    <div style={{ backgroundColor: '#1D232A' }} className='h-screen max-w-6xl mx-auto justify-center items-center block'>
+    <div style={{ backgroundColor: '#1D232A' }} className='max-w-7xl mx-auto justify-center items-center block my-10'>
       <div className="">
         <p className='text-5xl font-bold text-center text-white mb-5'>Featured Collections</p>
       </div>

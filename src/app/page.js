@@ -1,10 +1,12 @@
 import AboutUs from "@/components/AboutUs";
 import Banner from "@/components/Banner";
+import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
 import Navbar from "@/components/Navbar";
 import Products from "@/components/Products";
 import Teams from "@/components/Teams";
 import TopHeader from "@/components/TopHeader";
+import VideoBanner from "@/components/VideoBanner";
 
 export default function Home() {
   return (
@@ -13,8 +15,8 @@ export default function Home() {
       <Banner />
       <AboutUs />
       <Products />
-      <Teams />
-
+      <VideoBanner />
+      <Contact />
     </div>
   );
 }
