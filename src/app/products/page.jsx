@@ -1,12 +1,12 @@
+import Collections from '@/components/Collections'
 import Contact from '@/components/Contact'
-import Location from '@/components/Location'
 import React from 'react'
 
 const page = () => {
   return (
     <div>
+        <Collections />
         <Contact />
-        <Location />
     </div>
   )
 }

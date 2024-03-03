@@ -17,9 +17,6 @@ const Products = () => {
             <h2 className="card-title text-xl">Polished Cotton Cord
             </h2>
             <p>If a dog chews shoes whose shoes does he choose?</p>
-            <div className="card-actions">
-              <button className="btn text-white mt-5 btn-error btn-outline font-bold">View <FaEye className='text-xl' /> </button>
-            </div>
           </div>
         </div>
         <div  style={{ border: '1px solid #F7941D' }} className="card shadow-xl bg-base-300 hover:bg-base-200">
@@ -30,9 +27,6 @@ const Products = () => {
             <h2 className="card-title">Polished Cotton Cord
             </h2>
             <p>If a dog chews shoes whose shoes does he choose?</p>
-            <div className="card-actions">
-              <button className="btn text-white mt-5 btn-error btn-outline font-bold">View <FaEye className='text-xl' /></button>
-            </div>
           </div>
         </div>
         <div  style={{ border: '1px solid #F7941D' }} className="card shadow-xl bg-base-300 hover:bg-base-200">
@@ -43,9 +37,6 @@ const Products = () => {
             <h2 className="card-title">Polished Cotton Cord
             </h2>
             <p>If a dog chews shoes whose shoes does he choose?</p>
-            <div className="card-actions">
-              <button className="btn text-white mt-5 btn-error btn-outline font-bold">View <FaEye className='text-xl' /></button>
-            </div>
           </div>
         </div>
         <div  style={{ border: '1px solid #F7941D' }} className="card shadow-xl bg-base-300 hover:bg-base-200">
@@ -56,9 +47,6 @@ const Products = () => {
             <h2 className="card-title">Polished Cotton Cord
             </h2>
             <p>If a dog chews shoes whose shoes does he choose?</p>
-            <div className="card-actions">
-              <button className="btn text-white mt-5 btn-error btn-outline font-bold">View <FaEye className='text-xl' /></button>
-            </div>
           </div>
         </div>
 
