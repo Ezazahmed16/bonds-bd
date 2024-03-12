@@ -12,7 +12,7 @@ const AboutUs = () => {
         <div className="">
           <img
             className='rounded-lg shadow-md h-full w-full mx-0 justify-center block'
-            src='https://cdn.pixabay.com/photo/2018/02/27/21/24/thread-3186657_960_720.jpg'
+            src='https://cdn.pixabay.com/photo/2020/04/19/12/26/sewing-kit-5063401_1280.jpg'
             alt='bonds-bd-aboutus' />
         </div>
       </div>
