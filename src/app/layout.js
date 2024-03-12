@@ -12,6 +12,8 @@ export const metadata = {
   description: "Discover high-quality thread manufacturing at Bonds Bangladesh, the premier thread reckoning factory in Bangladesh. We offer top-notch thread products to meet your sewing needs.",
 };
 
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
 export default function RootLayout({ children }) {
   return (
     <html lang="en">

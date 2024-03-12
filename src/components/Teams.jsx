@@ -6,13 +6,15 @@ import { FaInstagramSquare } from "react-icons/fa";
 const Teams = () => {
   return (
     <div style={{ backgroundColor: '#1D232A' }} className='max-w-7xl mx-auto block'>
-      <div className="py-6 dark:bg-gray-800 dark:text-gray-100">
+      <div className="py-6">
         <div className="container flex flex-col items-center justify-center p-4 mx-auto sm:p-10">
-          <p className="p-2 text-sm font-medium tracki text-center uppercase">Team</p>
-          <h1 className="text-4xl font-bold leadi text-center sm:text-5xl uppercase">meet our expertise team</h1>
+
+          <h1 className="mb-5 text-5xl font-bold text-white">Meet Our Expertise Team</h1>
+
           <div className="flex flex-row flex-wrap-reverse justify-center mt-8">
-            <div className="flex flex-col justify-center w-full px-8 mx-6 my-12 text-center rounded-md md:w-96 lg:w-80 xl:w-64 dark:bg-gray-100 dark:text-gray-800">
-              <img alt="" className="self-center flex-shrink-0 w-24 h-24 -mt-12 bg-center bg-cover rounded-full dark:bg-gray-500" src="https://source.unsplash.com/100x100/?portrait?0" />
+
+            <div className="flex flex-col justify-center w-full px-8 mx-6 my-12 text-center rounded-md md:w-96 lg:w-80 xl:w-64 bg-gray-100 text-gray-800">
+              <img alt="" className="self-center flex-shrink-0 w-24 h-24 -mt-12 bg-center bg-cover rounded-full bg-gray-500" src="https://source.unsplash.com/100x100/?portrait?0" />
               <div className="flex-1 my-4">
                 <p className="text-xl font-semibold leadi">Leroy Jenkins</p>
                 <p>CEO</p>
@@ -23,8 +25,9 @@ const Teams = () => {
                 <FaInstagramSquare className='h-6 w-6' />
               </div>
             </div>
-            <div className="flex flex-col justify-center w-full px-8 mx-6 my-12 text-center rounded-md md:w-96 lg:w-80 xl:w-64 dark:bg-gray-100 dark:text-gray-800">
-              <img alt="" className="self-center flex-shrink-0 w-24 h-24 -mt-12 bg-center bg-cover rounded-full dark:bg-gray-500" src="https://source.unsplash.com/100x100/?portrait?1" />
+
+            <div className="flex flex-col justify-center w-full px-8 mx-6 my-12 text-center rounded-md md:w-96 lg:w-80 xl:w-64 bg-gray-100 text-gray-800">
+              <img alt="" className="self-center flex-shrink-0 w-24 h-24 -mt-12 bg-center bg-cover rounded-full bg-gray-500" src="https://source.unsplash.com/100x100/?portrait?1" />
               <div className="flex-1 my-4">
                 <p className="text-xl font-semibold leadi">Leroy Jenkins</p>
                 <p>Visual Designer</p>
@@ -35,8 +38,9 @@ const Teams = () => {
                 <FaInstagramSquare className='h-6 w-6' />
               </div>
             </div>
-            <div className="flex flex-col justify-center w-full px-8 mx-6 my-12 text-center rounded-md md:w-96 lg:w-80 xl:w-64 dark:bg-gray-100 dark:text-gray-800">
-              <img alt="" className="self-center flex-shrink-0 w-24 h-24 -mt-12 bg-center bg-cover rounded-full dark:bg-gray-500" src="https://source.unsplash.com/100x100/?portrait?2" />
+            
+            <div className="flex flex-col justify-center w-full px-8 mx-6 my-12 text-center rounded-md md:w-96 lg:w-80 xl:w-64 bg-gray-100 text-gray-800">
+              <img alt="" className="self-center flex-shrink-0 w-24 h-24 -mt-12 bg-center bg-cover rounded-full bg-gray-500" src="https://source.unsplash.com/100x100/?portrait?2" />
               <div className="flex-1 my-4">
                 <p className="text-xl font-semibold leadi">Leroy Jenkins</p>
                 <p>Visual Designer</p>
@@ -47,8 +51,9 @@ const Teams = () => {
                 <FaInstagramSquare className='h-6 w-6' />
               </div>
             </div>
-            <div className="flex flex-col justify-center w-full px-8 mx-6 my-12 text-center rounded-md md:w-96 lg:w-80 xl:w-64 dark:bg-gray-100 dark:text-gray-800">
-              <img alt="" className="self-center flex-shrink-0 w-24 h-24 -mt-12 bg-center bg-cover rounded-full dark:bg-gray-500" src="https://source.unsplash.com/100x100/?portrait?3" />
+
+            <div className="flex flex-col justify-center w-full px-8 mx-6 my-12 text-center rounded-md md:w-96 lg:w-80 xl:w-64 bg-gray-100 text-gray-800">
+              <img alt="" className="self-center flex-shrink-0 w-24 h-24 -mt-12 bg-center bg-cover rounded-full bg-gray-500" src="https://source.unsplash.com/100x100/?portrait?3" />
               <div className="flex-1 my-4">
                 <p className="text-xl font-semibold leadi">Leroy Jenkins</p>
                 <p>Chairman</p>

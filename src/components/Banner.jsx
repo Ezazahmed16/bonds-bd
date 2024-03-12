@@ -14,8 +14,8 @@ const Banner = () => {
                 Discover high-quality thread manufacturing at Bonds Bangladesh, the premier thread reckoning factory in Bangladesh. We offer top-notch thread products to meet your sewing needs.
               </p>
 
-              <Link href='/contact'>
-                <button style={{ backgroundColor: '#E13D44' }} className="btn text-white border-none">Contact Us</button>
+              <Link href=''>
+                <button style={{ backgroundColor: '#E13D44' }} className="btn text-white border-none">About Us</button>
               </Link>
 
             </div>

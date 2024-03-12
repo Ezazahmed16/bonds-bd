@@ -4,9 +4,9 @@ import React from 'react'
 const Contact = () => {
     return (
         <div>
-            <div className="block my-10 ">
-                <h1 className='text-5xl text-center font-bold mb-5 text-gray-100'>Get In Touch</h1>
-                <div className="hero max-w-7xl mx-auto h-screen">
+            <div className="max-w-7xl mx-auto justify-center items-center block my-10">
+                <h1 className='mb-5 text-5xl font-bold text-white text-center'>Get In Touch</h1>
+                <div className="hero max-w-7xl mx-auto">
                     <div className="hero-content grid grid-cols-1 md:grid-cols-2 gap-10">
                         <div className="text-center lg:text-left w-full">
                             <img className='h-96 w-full rounded-lg' src='https://img.freepik.com/free-vector/flat-customer-support-illustration_23-2148899114.jpg?w=740&t=st=1708355542~exp=1708356142~hmac=a046c0277df0595e044e66417aeff2f1034ac2408b76ccf43c410aa98f40fd81' alt='Contact Us - Bonds BD' />
