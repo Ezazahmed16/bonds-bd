@@ -9,7 +9,7 @@ const Banner = () => {
           <div className="hero-overlay bg-opacity-60"></div>
           <div className="hero-content text-center text-neutral-content">
             <div className="max-w-md text-white">
-              <h1 className="mb-5 text-5xl font-bold">Bonds Bangladesh</h1>
+              <h1 className="mb-5 text-5xl font-bold"> Bangladesh</h1>
               <p className="mb-5">
                 Discover high-quality thread manufacturing at Bonds Bangladesh, the premier thread reckoning factory in Bangladesh. We offer top-notch thread products to meet your sewing needs.
               </p>
