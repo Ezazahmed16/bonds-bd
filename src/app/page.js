@@ -11,8 +11,8 @@ export default function Home() {
     <div className="">
       <Banner />
       <AboutUs />
-      <div style={{ backgroundColor: '#1D232A' }} className="mx-auto max-w-7xl justify-center items-center pb-20">
-        <div className="flex flex-col w-full lg:flex-row gap-5">
+      <div style={{ backgroundColor: '#1D232A' }} className="pb-10 md:pb-20">
+        <div className="flex flex-col w-full lg:flex-row gap-3 justify-center items-center md:px-20 px-5 ">
           <Mission />
           <div className="divider lg:divider-horizontal"></div>
           <Vision />

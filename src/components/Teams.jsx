@@ -9,7 +9,9 @@ const Teams = () => {
       <div className="py-6">
         <div className="container flex flex-col items-center justify-center p-4 mx-auto sm:p-10">
 
-          <h1 className="mb-5 text-5xl font-bold text-white">Meet Our Expertise Team</h1>
+          <h1 className="mb-5 text-3xl md:text-5xl font-bold text-white text-center">Meet Our Expertise Team</h1>
+
+          <div style={{ backgroundColor: '#E13D44' }} className="h-1 w-20 mb-5 mx-auto mt-5"></div>
 
           <div className="flex flex-row flex-wrap-reverse justify-center mt-8">
 

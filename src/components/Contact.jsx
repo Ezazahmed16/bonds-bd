@@ -5,7 +5,8 @@ const Contact = () => {
     return (
         <div>
             <div className="max-w-7xl mx-auto justify-center items-center block my-10">
-                <h1 className='mb-5 text-5xl font-bold text-white text-center'>Get In Touch</h1>
+                <h1 className='mb-5 text-3xl md:text-5xl font-bold text-white text-center'>Get In Touch</h1>
+                <div style={{ backgroundColor: '#E13D44' }} className="h-1 w-20 mb-5 mx-auto mt-5"></div>
                 <div className="hero max-w-7xl mx-auto">
                     <div className="hero-content grid grid-cols-1 md:grid-cols-2 gap-10">
                         <div className="text-center lg:text-left w-full">
