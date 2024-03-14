@@ -8,7 +8,7 @@ const AboutUs = () => {
         <div className="">
           <h1 className='mb-5 md:text-5xl text-3xl font-bold text-white'>About Us</h1>
           <div style={{ backgroundColor: '#E13D44' }} className="h-1 w-20 mb-5 mx-0 mt-5"></div>
-          <p className='text-justify text-white md:text-xl text-sm'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur earum molestias voluptate soluta aliquid error possimus eum asperiores? Ex reprehenderit reiciendis nam necessitatibus aut assumenda, aliquid consequuntur ab minima, possimus excepturi facilis ipsa! Velit earum enim eaque, accusantium qui cum.</p>
+          <p className='text-justify text-white md:text-xl text-sm'>Welcome to Bonds Bangladesh, where craftsmanship meets innovation to produce the finest quality yarns. Established 2015, we take pride in being a leading player in the yarn manufacturing industry. Our commitment to excellence, sustainability, and customer satisfaction sets us apart.</p>
         </div>
         <div className="">
           <img

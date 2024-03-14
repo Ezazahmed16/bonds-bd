@@ -25,6 +25,12 @@ Bonds Bangladesh is one of the top Thread reckoning factories in Bangladesh.
   - Services
   - Contact Us
 
+- **About Us**:
+  - About us
+  - History
+  - Why Us
+  - Teans
+
 - **Products**:
   - Products
   - Contact Us

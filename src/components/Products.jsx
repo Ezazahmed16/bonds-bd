@@ -2,7 +2,7 @@ import React from 'react'
 
 const Products = () => {
   return (
-    <div style={{ backgroundColor: '#1D232A' }} className='max-w-7xl mx-auto justify-center items-center block my-10'>
+    <div style={{ backgroundColor: '#1D232A' }} className='max-w-7xl mx-auto justify-center items-center block py-10'>
       <div className="mb-10">
         <p className='mb-5 text-3xl md:text-5xl font-bold text-white text-center'>Featured Collections</p>
         <div style={{ backgroundColor: '#E13D44' }} className="h-1 w-20 mb-5 mx-auto mt-5"></div>
