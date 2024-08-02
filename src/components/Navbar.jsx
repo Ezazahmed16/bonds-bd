@@ -5,7 +5,7 @@ import React from 'react'
 const Navbar = () => {
   return (
     <div className=''>
-      <div className="absolute md:fixed block left-0 top-0 w-full z-10">
+      <div className="absolute block left-0 top-0 w-full z-10">
         <div className="navbar">
           <div className="navbar-start w-full justify-between md:justify-start">
             <div className="dropdown">
