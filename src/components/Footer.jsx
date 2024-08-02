@@ -3,6 +3,8 @@ import Link from 'next/link'
 import { FaFacebook } from "react-icons/fa";
 import { FaInstagramSquare } from "react-icons/fa";
 import { FaYoutube } from "react-icons/fa";
+import { IoCall } from 'react-icons/io5';
+import { MdEmail } from 'react-icons/md';
 
 const Footer = () => {
   return (
@@ -22,9 +24,19 @@ const Footer = () => {
                   />
                 </div>
               </Link>
-              <p className='text-cyan-950 text-center md:text-start'>
+              <p className='text-cyan-950 text-center md:text-start md:w-2/3'>
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius, nulla
               </p>
+              <div className="">
+                <div className="flex gap-2 justify-center md:justify-start items-center">
+                  <MdEmail className='text-2xl' />
+                  <p className='text-cyan-950 text-center md:text-start cursor-pointer link-success'>info@bondsbd.com</p>
+                </div>
+                <div className="flex gap-2 justify-center md:justify-start items-center mt-1">
+                  <IoCall className='text-2xl' />
+                  <p className='text-cyan-950 text-center md:text-start cursor-pointer link-success'>+882345678</p>
+                </div>
+              </div>
             </div>
 
             <div className="col-span-full text-center md:text-left md:col-span-3">
@@ -81,9 +93,9 @@ const Footer = () => {
 
             <div className="flex justify-center pt-4 space-x-4 lg:pt-0 lg:col-end-13">
 
-              <FaFacebook className='text-3xl'/>
-              <FaInstagramSquare className='text-3xl'/>
-              <FaYoutube className='text-3xl'/>
+              <FaFacebook className='text-3xl' />
+              <FaInstagramSquare className='text-3xl' />
+              <FaYoutube className='text-3xl' />
 
             </div>
           </div>

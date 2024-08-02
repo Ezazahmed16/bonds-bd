@@ -16,7 +16,7 @@ const Contact = () => {
                 }}
                 className="relative flex flex-col gap-4 items-center justify-center px-4"
             >
-                <div className="max-w-7xl mx-auto justify-center items-center block my-10">
+                <div className="max-w-7xl mx-auto justify-center items-center block ">
                     <h1 className='mb-5 text-3xl md:text-5xl font-bold text-gray-900 text-center'>Get In Touch</h1>
                     <div style={{ backgroundColor: '#E13D44' }} className="h-1 w-20 mb-5 mx-auto mt-5"></div>
 
