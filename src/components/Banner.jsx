@@ -1,27 +1,45 @@
-import Link from 'next/link'
-import React from 'react'
+'use client'
+import { motion } from "framer-motion";
+import AuroraBackground from "./ui/AuroraBackground";
+import { TypewriterEffectSmooth } from "./ui/TypewriterEffectSmooth";
 
 const Banner = () => {
+  const words = [
+    {
+      text: "Bonds",
+      className: "text-red-500 text-3xl md:text-7xl ",
+    },
+    {
+      text: "Bangladesh",
+      className: "text-orange-500 text-3xl md:text-7xl ",
+    },
+  ];
   return (
-    <div>
-      <div className="">
-        <div className="hero min-h-screen" style={{ backgroundImage: 'url(https://img.freepik.com/free-photo/multi-colored-textile-spools-arranged-wooden-table-generated-by-ai_188544-19697.jpg?w=826&t=st=1708182482~exp=1708183082~hmac=c7c2a19ad5787fb7865cb925cf70cbf4a84368ea7a8bf129a2c6676e9ede2f08 )' }}>
-          <div className="hero-overlay bg-opacity-60"></div>
-          <div className="hero-content text-center text-neutral-content">
-            <div className="max-w-md text-white">
-              <h1 className="mb-5 text-5xl font-bold">BONDS Bangladesh</h1>
-              <p className="mb-5">
-                Discover the pinnacle of yarn craftsmanship and innovation at Bonds Bangladesh, a premier industry leader since 2015, dedicated to excellence, sustainability, and customer satisfaction.
-              </p>
-
-              <Link href='/contact'>
-                <button style={{ backgroundColor: '#E13D44' }} className="btn text-white border-none">Contact Us</button>
-              </Link>
-
-            </div>
+    <div className="">
+      <AuroraBackground>
+        <motion.div
+          initial={{ opacity: 0.0, y: 40 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{
+            delay: 0.3,
+            duration: 0.8,
+            ease: "easeInOut",
+          }}
+          className="relative flex flex-col gap-4 items-center justify-center px-4"
+        >
+          <div className="font-bold text-gray-900 text-center">
+            <TypewriterEffectSmooth words={words} />
           </div>
-        </div>
-      </div>
+
+          <div className="font-extralight text-center text-base md:text-3xl text-neutral-950 py-4 max-w-2xl">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perferendis nam aliquam necessitatibus fugit possimus quaerat, ad ipsum cumque voluptatem.
+          </div>
+          {/* <button className="rounded-full w-fit text-white px-4 py-2">
+            Debug now
+          </button> */}
+          <button style={{ backgroundColor: '#E13D44' }} className="btn text-gray-100 font-bold rounded-full">Contact Now</button>
+        </motion.div>
+      </AuroraBackground>
     </div>
   )
 }

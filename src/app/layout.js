@@ -15,10 +15,18 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
+    <html data-theme="cupcake" lang="en">
       <body className={NunitoSans.className}>
-        <NextTopLoader />
-        <TopHeader />
+        <NextTopLoader
+          color="#E13D44"
+          initialPosition={0.08}
+          crawlSpeed={200}
+          height={3}
+          crawl={true}
+          showSpinner={true}
+          easing="ease"
+        />
+        {/* <TopHeader /> */}
         <Navbar />
         {children}
         <Footer />
